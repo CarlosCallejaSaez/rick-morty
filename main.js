@@ -9,7 +9,7 @@ async function getDataFromAPI() {
     dataSliced.forEach((item) => {
       console.log(item.name);
       let container = document.querySelector(".app");
-      
+
       container.innerHTML += `<div class="container">
       <div class="card">
         <div class="card__border">
@@ -23,7 +23,6 @@ async function getDataFromAPI() {
   
        
        `;
-      
     });
   } catch (error) {
     console.log("Error:", error);

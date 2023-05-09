@@ -1,16 +1,15 @@
-
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap");
 
 
 :root {
- 
+
   --first-color: hsl(29, 80%, 58%);
   --first-color-light: hsl(29, 80%, 70%);
   --black-color: hsl(29, 16%, 10%);
   --text-color: hsl(29, 8%, 65%);
   --body-color: hsl(29, 100%, 99%);
 
- 
+
   --body-font: "Poppins", sans-serif;
   --h3-font-size: 1.125rem;
   --smaller-font-size: 0.75rem;
@@ -29,7 +28,9 @@ body {
   background-image: url(assets/rocket-3972.gif);
 }
 
-h1 {color:var(--first-color-light)}
+h1 {
+  color: var(--first-color-light)
+}
 
 a {
   text-decoration: none;
@@ -46,24 +47,25 @@ img {
 
 
 
-.app{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+.app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
+
 .container {
   height: 100vh;
   margin-inline: 1.5rem;
   display: flex;
   height: 300px;
-  
-  
-  
+
+
+
 }
 
 .card {
-  
-  margin-top:20px;
+
+  margin-top: 20px;
   position: relative;
   width: 400px;
   background-color: var(--black-color);
@@ -99,4 +101,3 @@ img {
   font-size: var(--smaller-font-size);
   font-weight: 500;
 }
-
